@@ -34,7 +34,7 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/hero.png" alt="">
+                <img src="img/diseño.png" alt="">
             </div>
             <h1>MATEO FRANCO</h1>
             <h2>Data Analyst - Financial</h2>
@@ -61,7 +61,7 @@
                             08-10-2000
                         </li>
                         <li>
-                            <strong>Teléfono</strong>
+                            <strong>Phone</strong>
                             +57 3137821147
                         </li>
                         <li>
@@ -73,7 +73,7 @@
                             www.github.com/mateofrancop
                         </li>
                         <li>
-                            <strong>Dirección</strong>
+                            <strong>Address</strong>
                             Pereira, Colombia 
                         </li>
                         <li>
@@ -287,15 +287,17 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Your Name">
-                    <input type="text" placeholder="Phone number">
-                    <input type="text" placeholder="Email address">
-                    <input type="text" placeholder="Topic">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button>
-                        Send Message<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form id="contactForm" action="https://formspree.io/f/myyrzyoq" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="tel" name="phone" placeholder="Phone number">
+                        <input type="email" name="email" placeholder="Email address" required>
+                        <input type="text" name="topic" placeholder="Subject" required>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <button>
+                            Send Message<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>    
                 </div>
                 <!-- Mapa -->
                 <div class="col">
@@ -323,11 +325,11 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="https://github.com/mateofrancop" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/mateo.franco.7106/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/MateoFrancoPos" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mateofrancoposada" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=573126406506" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
     </footer>
 
