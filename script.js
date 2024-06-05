@@ -134,7 +134,7 @@ function openModal(projectId) {
     } else if (projectId === 'proyecto4') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Portfolio_Optimization" target="_blank">
-                <img src="img/Rplot.PNG" alt="Portfolio Optimization">
+                <img src="img/R.PNG" alt="Portfolio Optimization">
             </a>`;
         modalText.innerHTML = `
             <h2>Portfolio Optimization</h2>
