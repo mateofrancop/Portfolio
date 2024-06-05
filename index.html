@@ -122,8 +122,8 @@
                         
                     </div>
                 </div>
-            </div>
-                <a href="https://drive.google.com/file/d/1aG31JVkmJnoMHwjua4Mi2_0DXGjruWMo/view?usp=drive_link" download target="_blank">
+            </div> 
+                <a href="https://drive.google.com/file/d/1aG31JVkmJnoMHwjua4Mi2_0DXGjruWMo/view?usp=sharing" download target="_blank">
                     <button>
                         Download CV <i class="fa-solid fa-download"></i>
                         <span class="overlay"></span>
@@ -132,56 +132,86 @@
         </div>
     </section>
 
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div class="galeria">
-                <div class="proyecto">
+                <div class="proyecto" onclick="openModal('proyecto1')">
                     <img src="img/Captura.PNG" alt="">
                     <div class="overlay">
                         <h3>Pereira Economy</h3>
                         <p>Project</p>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" onclick="openModal('proyecto2')">
                     <img src="img/Capturaferw.PNG" alt="">
                     <div class="overlay">
                         <h3>R.S Project</h3>
                         <p>Project</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/Markowits_linea_trasada.PNG" alt="">
+                <div class="proyecto" onclick="openModal('proyecto3')">
+                    <img src="img/Dispercion1.PNG" alt="">
                     <div class="overlay">
                         <h3>Investment Portfolio</h3>
                         <p>Project</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/rsd.PNG" alt="">
+                <div class="proyecto" onclick="openModal('proyecto4')">
+                    <img src="img/Rplot.PNG" alt="">
                     <div class="overlay">
-                        <h3>Pereira Economy</h3>
+                        <h3>Portfolio Optimization</h3>
                         <p>Project</p>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" onclick="openModal('proyecto5')">
                     <img src="img/tegd.PNG" alt="">
                     <div class="overlay">
                         <h3>Customer's Complaints</h3>
                         <p>Project</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/kfs.PNG" alt="">
+                <div class="proyecto" onclick="openModal('proyecto6')">
+                    <img src="img/Frontier.PNG" alt="">
                     <div class="overlay">
-                        <h3>Investment Portfolio</h3>
+                        <h3>Markowitz and Black-Litterman</h3>
                         <p>Project</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <div id="modal-img" class="modal-image"></div>
+                </div>
+                <div class="modal-text" id="modal-text">
+                    <!-- El contenido se actualizará dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    </html>
+    
+
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">

@@ -359,38 +359,38 @@ html{
     100%{width: 80%;}
 }
 /* SECCION PORTFOLIO */
-.portfolio{
+.portfolio {
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
 }
-.portfolio .contenido-seccion{
+.portfolio .contenido-seccion {
     max-width: 1100px;
     margin: auto;
 }
-.portfolio h2{
+.portfolio h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 }
-.portfolio .galeria{
+.portfolio .galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.portfolio .galeria .proyecto{
+.portfolio .galeria .proyecto {
     position: relative;
     max-width: 340px;
     height: fit-content;
     margin: 10px;
     cursor: pointer;
 }
-.portfolio .galeria .proyecto img{
+.portfolio .galeria .proyecto img {
     width: 100%;
     display: block;
 }
-.portfolio .galeria .proyecto .overlay{
+.portfolio .galeria .proyecto .overlay {
     position: absolute;
     top: 0;
     width: 100%;
@@ -405,16 +405,144 @@ html{
     letter-spacing: 3px;
     opacity: 0;
 }
-.portfolio .galeria .proyecto .overlay h3{
+.portfolio .galeria .proyecto .overlay h3 {
     margin-bottom: 20px;
     transition: 1s;
 }
-.portfolio .galeria .proyecto .overlay:hover{
+.portfolio .galeria .proyecto .overlay:hover {
     opacity: 1;
 }
-.portfolio .galeria .proyecto .overlay:hover h3{
+.portfolio .galeria .proyecto .overlay:hover h3 {
     margin-bottom: 0px;
 }
+
+/* CSS para el Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+    padding-top: 100px; /* Ajusta este valor según la altura de tu barra de menú */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 5px solid #1cb698; /* Añadir borde con color y grosor */
+    border-radius: 10px; /* Añadir esquinas redondeadas */
+    width: calc(100% - 40px); /* Ajusta según sea necesario */
+    max-width: 1250px;
+    height: calc(100% - 40px); /* Ajusta según sea necesario */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.modal-image {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.modal-image img {
+    width: 100%;
+    height: auto;
+    max-width: calc(100% - 30px); /* Reducir el ancho de la imagen para dejar espacio a la izquierda */
+    max-height: 100%;
+    object-fit: contain;
+    margin-left: 40px; /* Agregar un margen a la izquierda para mover la imagen hacia la derecha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+.modal-text {
+    flex: 1;
+    padding: 20px;
+    padding-left: 70px; /* Añadir padding a la izquierda para separar del borde */
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.modal-text h2 {
+    margin-top: 40px; /* Ajustar el margen superior para bajar el título */
+    margin-bottom: 30px; /* Añadir margen inferior para separar del siguiente elemento */
+    font-size: 24px; /* Ajustar el tamaño de la fuente si es necesario */
+    color: #1cb698; /* Cambiar el color del título */
+}
+
+.modal-text p {
+    margin-bottom: 10px; /* Añadir margen inferior para separar los párrafos */
+    font-size: 16px; /* Ajustar el tamaño de la fuente si es necesario */
+}
+
+/* Si usas clases específicas para las tecnologías y la descripción, puedes ajustarlas también */
+.modal-text .tecnologias {
+    margin-bottom: 30px; /* Añadir margen inferior para separar de la descripción */
+    font-weight: bold; /* Hacer que las tecnologías se destaquen un poco */
+}
+
+.modal-text .tecnologias ul {
+    padding-left: 20px; /* Añadir padding para la lista */
+    margin-left: 20px; /* Añadir margen a la izquierda */
+}
+
+.modal-text .tecnologias li {
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+    font-weight: normal; /* Estilo normal para los elementos de la lista */
+    font-size: 14px; /* Ajustar el tamaño de la fuente si es necesario */
+    list-style-position: inside; /* Asegura que el marcador de lista esté dentro del padding */
+}
+
+.modal-text .descripcion {
+    margin-bottom: 20px; /* Añadir margen inferior si hay más elementos después */
+    font-size: 14px; /* Ajustar el tamaño de la fuente si es necesario */
+    line-height: 1.5; /* Mejorar la legibilidad aumentando el interlineado */
+}
+
+.modal-text .descripcion a {
+    color: #1cb698; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado por defecto */
+}
+
+.modal-text .descripcion a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+
+
+
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
