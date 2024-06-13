@@ -184,6 +184,24 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Black-Litterman_Markowitz" target="_blank">If you want to know more, click here</a>
             </p>
         `;
+    } else if (projectId === 'proyecto7') {
+        modalImg.innerHTML = `
+            <a href="https://github.com/mateofrancop/Tesis" target="_blank">
+                <img src="img/tdgh.PNG" alt="Tesis">
+            </a>`;
+        modalText.innerHTML = `
+            <h2>Tesis</h2>
+            <p class="tecnologias">Tools used:</p>
+            <ul class="tecnologias">
+                <li>Python</li>
+                <li>Word</li>
+            </ul>
+            <p class="descripcion">
+                Este proyecto de investigación se centra en abordar la crisis del sistema pensional a nivel mundial, analizando los desafíos futuros que enfrentará y proponiendo estrategias innovadoras para garantizar una jubilación estable y segura. La investigación explorará varias estrategias de inversión, incluyendo la optimización de portafolios, la implementación de modelos avanzados de machine learning, y el uso combinado de la estrategia de DCA (Dollar-Cost Averaging) con el interés compuesto.
+                <br><br>
+                <a href="https://github.com/mateofrancop/Tesis" target="_blank">Para saber mas, haga clic aqui </a>
+            </p>
+        `;    
     }
 
 
