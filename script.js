@@ -95,6 +95,23 @@ function openModal(projectId) {
         `;
     } else if (projectId === 'proyecto2') {
         modalImg.innerHTML = `
+            <a href="https://github.com/mateofrancop/Walmart_Sales" target="_blank">
+                <img src="img/Dashboard.PNG" alt="Walmart Sales">
+            </a>`;
+        modalText.innerHTML = `
+            <h2>Tesis</h2>
+            <p class="tecnologias">Tools used:</p>
+            <ul class="tecnologias">
+                <li>Excel</li>
+            </ul>
+            <p class="descripcion">
+                Este proyecto tiene como objetivo investigar cómo diversas variables, como el clima, la tasa de desempleo, la inflación, los festivos y el precio de la gasolina, influyen en las ventas de Walmart.
+                <br><br>
+                <a href="https://github.com/mateofrancop/Walmart_Sales" target="_blank">Para saber mas, haga clic aqui </a>
+            </p>
+        `;  
+    } else if (projectId === 'proyecto3') {
+        modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/R.S-Project" target="_blank">
                 <img src="img/Capturaferw.PNG" alt="R.S Project">
             </a>`;
@@ -112,7 +129,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/R.S-Project" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto3') {
+    } else if (projectId === 'proyecto4') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Investment-Portfilio" target="_blank">
                 <img src="img/Dispercion1.PNG" alt="Investment Portfolio">
@@ -131,7 +148,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Investment-Portfilio" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto4') {
+    } else if (projectId === 'proyecto5') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Portfolio_Optimization" target="_blank">
                 <img src="img/R.PNG" alt="Portfolio Optimization">
@@ -149,7 +166,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Portfolio_Optimization" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto5') {
+    } else if (projectId === 'proyecto6') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Customer-s-Complaints" target="_blank">
                 <img src="img/tegd.PNG" alt="Customer's Complaints">
@@ -166,7 +183,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Customer-s-Complaints" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto6') {
+    } else if (projectId === 'proyecto7') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Black-Litterman_Markowitz" target="_blank">
                 <img src="img/Frontier.PNG" alt="Markowitz and Black-Litterman">
@@ -184,7 +201,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Black-Litterman_Markowitz" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto7') {
+    } else if (projectId === 'proyecto8') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Tesis" target="_blank">
                 <img src="img/tdgh.PNG" alt="Tesis">
@@ -201,7 +218,7 @@ function openModal(projectId) {
                 <br><br>
                 <a href="https://github.com/mateofrancop/Tesis" target="_blank">Para saber mas, haga clic aqui </a>
             </p>
-        `;    
+        `;
     }
 
 
