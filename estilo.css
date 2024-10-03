@@ -431,7 +431,7 @@ html{
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #ffffff;
     margin: auto;
     padding: 0;
     border: 5px solid #1cb698; /* Añadir borde con color y grosor */
@@ -473,14 +473,14 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #F2F2F2;
     overflow: hidden;
 }
 
 .modal-image img {
     width: 100%;
     height: auto;
-    max-width: calc(100% - 30px); /* Reducir el ancho de la imagen para dejar espacio a la izquierda */
+    max-width: calc(100% - 80px); /* Reducir el ancho de la imagen para dejar espacio a la izquierda */
     max-height: 100%;
     object-fit: contain;
     margin-left: 40px; /* Agregar un margen a la izquierda para mover la imagen hacia la derecha */
@@ -489,14 +489,14 @@ html{
 
 .modal-text {
     flex: 1;
-    padding: 20px;
-    padding-left: 70px; /* Añadir padding a la izquierda para separar del borde */
-    background-color: #fff;
+    padding: 40px;
+    padding-left: 40px; /* Añadir padding a la izquierda para separar del borde */
+    background-color: #ffffff;
     overflow-y: auto;
 }
 
 .modal-text h2 {
-    margin-top: 40px; /* Ajustar el margen superior para bajar el título */
+    margin-top: 5px; /* Ajustar el margen superior para bajar el título */
     margin-bottom: 30px; /* Añadir margen inferior para separar del siguiente elemento */
     font-size: 24px; /* Ajustar el tamaño de la fuente si es necesario */
     color: #1cb698; /* Cambiar el color del título */

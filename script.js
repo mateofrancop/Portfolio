@@ -99,7 +99,7 @@ function openModal(projectId) {
                 <img src="img/Dashboard.PNG" alt="Walmart Sales">
             </a>`;
         modalText.innerHTML = `
-            <h2>Tesis</h2>
+            <h2>Walmart Sales</h2>
             <p class="tecnologias">Tools used:</p>
             <ul class="tecnologias">
                 <li>Excel</li>
