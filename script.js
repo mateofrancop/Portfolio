@@ -76,21 +76,18 @@ function openModal(projectId) {
     if (projectId === 'proyecto1') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Pereira-Economy" target="_blank">
-                <img src="img/Captura.PNG" alt="Pereira Economy">
+                <img src="img/imagen_Stock_de_Insumos_Clinicos.PNG" alt="Insumos Clinicos">
             </a>`;
         modalText.innerHTML = `
-            <h2>Pereira Economy</h2>
+            <h2>Insumos Clinicos</h2>
             <p class="tecnologias">Tools used:</p>
             <ul class="tecnologias">
-                <li>Python</li>
-                <li>MySQL</li>
                 <li>Excel</li>
-                <li>Tableau</li>
             </ul>
             <p class="descripcion">
-                In this project, we evaluate the economic conditions of the city of Pereira, aiming to find patterns and behaviors that help determine the feasibility of investing in the city.
+                En una clínica local, el informe de inventario de insumos clínicos se presentaba de forma poco eficiente, dificultando la rápida identificación de insumos escasos y la consulta de existencias históricas. Para solucionar esto, se utilizó macros para reestructurar los datos en una base más manejable, permitiendo la creación de KPIs clave y un panel de control que facilita el seguimiento del inventario de manera más ágil y precisa. 
                 <br><br>
-                <a href="https://github.com/mateofrancop/Pereira-Economy" target="_blank">If you want to know more, click here</a>
+                <a href="https://github.com/mateofrancop/Stock_Insumos_Clinicos" target="_blank">Para saber mas, haga clic aqui</a>
             </p>
         `;
     } else if (projectId === 'proyecto2') {
@@ -131,6 +128,26 @@ function openModal(projectId) {
         `;
     } else if (projectId === 'proyecto4') {
         modalImg.innerHTML = `
+            <a href="https://github.com/mateofrancop/Pereira-Economy" target="_blank">
+                <img src="img/Captura.PNG" alt="Pereira Economy">
+            </a>`;
+        modalText.innerHTML = `
+            <h2>Pereira Economy</h2>
+            <p class="tecnologias">Tools used:</p>
+            <ul class="tecnologias">
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Excel</li>
+                <li>Tableau</li>
+            </ul>
+            <p class="descripcion">
+                In this project, we evaluate the economic conditions of the city of Pereira, aiming to find patterns and behaviors that help determine the feasibility of investing in the city.
+                <br><br>
+                <a href="https://github.com/mateofrancop/Pereira-Economy" target="_blank">If you want to know more, click here</a>
+            </p>
+        `;
+    } else if (projectId === 'proyecto5') {
+        modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Investment-Portfilio" target="_blank">
                 <img src="img/Dispercion1.PNG" alt="Investment Portfolio">
             </a>`;
@@ -148,7 +165,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Investment-Portfilio" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto5') {
+    } else if (projectId === 'proyecto6') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Portfolio_Optimization" target="_blank">
                 <img src="img/R.PNG" alt="Portfolio Optimization">
@@ -166,7 +183,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Portfolio_Optimization" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto6') {
+    } else if (projectId === 'proyecto7') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Customer-s-Complaints" target="_blank">
                 <img src="img/tegd.PNG" alt="Customer's Complaints">
@@ -183,7 +200,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Customer-s-Complaints" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto7') {
+    } else if (projectId === 'proyecto8') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Black-Litterman_Markowitz" target="_blank">
                 <img src="img/Frontier.PNG" alt="Markowitz and Black-Litterman">
@@ -201,7 +218,7 @@ function openModal(projectId) {
                 <a href="https://github.com/mateofrancop/Black-Litterman_Markowitz" target="_blank">If you want to know more, click here</a>
             </p>
         `;
-    } else if (projectId === 'proyecto8') {
+    } else if (projectId === 'proyecto9') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/Tesis" target="_blank">
                 <img src="img/tdgh.PNG" alt="Tesis">
