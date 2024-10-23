@@ -79,7 +79,7 @@ function openModal(projectId) {
                 <img src="img/imagen_Stock_de_Insumos_Clinicos.PNG" alt="Insumos Clinicos">
             </a>`;
         modalText.innerHTML = `
-            <h2>Insumos Clinicos</h2>
+            <h2>Inventario de Insumos Clínicos</h2>
             <p class="tecnologias">Tools used:</p>
             <ul class="tecnologias">
                 <li>Excel</li>
@@ -96,13 +96,13 @@ function openModal(projectId) {
                 <img src="img/Dashboard.PNG" alt="Walmart Sales">
             </a>`;
         modalText.innerHTML = `
-            <h2>Walmart Sales</h2>
+            <h2>Análisis de Ventas</h2>
             <p class="tecnologias">Tools used:</p>
             <ul class="tecnologias">
                 <li>Excel</li>
             </ul>
             <p class="descripcion">
-                Este proyecto tiene como objetivo investigar cómo diversas variables, como el clima, la tasa de desempleo, la inflación, los festivos y el precio de la gasolina, influyen en las ventas de Walmart.
+                Este análisis de ventas semanales examina el impacto de diversas variables económicas y ambientales, como el clima, la tasa de desempleo, la inflación, los días festivos y el precio de la gasolina, sobre el comportamiento de las ventas. A través de este reporte, se busca identificar patrones y correlaciones que ayuden a entender cómo estos factores influyen en las fluctuaciones de las ventas a lo largo del tiempo.
                 <br><br>
                 <a href="https://github.com/mateofrancop/Walmart_Sales" target="_blank">Para saber mas, haga clic aqui </a>
             </p>
@@ -110,10 +110,10 @@ function openModal(projectId) {
     } else if (projectId === 'proyecto3') {
         modalImg.innerHTML = `
             <a href="https://github.com/mateofrancop/R.S-Project" target="_blank">
-                <img src="img/Capturaferw.PNG" alt="R.S Project">
+                <img src="img/Dashboard_imagen.PNG" alt="R.S Project">
             </a>`;
         modalText.innerHTML = `
-            <h2>R.S Project</h2>
+            <h2>Reporte Financiero</h2>
             <p class="tecnologias">Tools used:</p>
             <ul class="tecnologias">
                 <li>Python</li>
@@ -121,9 +121,9 @@ function openModal(projectId) {
                 <li>Power BI</li>
             </ul>
             <p class="descripcion">
-                In this project, the accounting records of a small company in the center of Pereira are used to evaluate its status, aiming to find patterns and solutions that help improve the company's financial situation.
+                Este reporte financiero está basado en la base de datos de un restaurante local, donde se analizan y comparan las variaciones en el total de ventas entre el año actual y el anterior. Además, se incluye un análisis de la utilidad, junto con un KPI que mide el cumplimiento del objetivo de utilidad establecido para el año.   
                 <br><br>
-                <a href="https://github.com/mateofrancop/R.S-Project" target="_blank">If you want to know more, click here</a>
+                <a href="https://github.com/mateofrancop/R.S-Project" target="_blank">Para saber mas, haga clic aqui</a>
             </p>
         `;
     } else if (projectId === 'proyecto4') {
